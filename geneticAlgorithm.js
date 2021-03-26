@@ -239,7 +239,7 @@ function mainGeneration(gen) {
 }
 
 function main() {
-    let generationSize = 1000;
+    let generationSize = 10;
 
     for (let i = 0; i < generationSize; i++) {
         let population = mainGeneration(i);
